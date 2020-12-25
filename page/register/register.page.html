@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+  <img src="/assets/logo/logo-5png.png">
+
+<ion-content>
+  <ion-card class="mycard">
+    <ion-text>
+      <h5 class="register-title" style="margin-top: 10px;" >ลงทะเบียนใช้งาน</h5>
+    </ion-text>
+  <div class="register-input" class="font-T3" >
+    <form class="ion-padding">
+      <div class="wrap-input">
+    <input class="input" placeholder="รหัสสมาชิก" type="text" name="member" >
+      </div>
+      <div class="wrap-input">
+    <input class="input" placeholder="เลขบัตรประชาชน" type="text" name="idcard" >
+      </div>
+      <div class="wrap-input">
+    <input class="input" placeholder="เบอร์โทรศัพท์" type="text" name="tell" >
+  </div>
+  <div class="wrap-input">
+    <input class="input" placeholder="E-mail" type="text"  name="email" >
+    </div>
+    <div class="wrap-input">
+    <input class="input" placeholder="LINE ID" type="text" name="line-id" >
+    </div>
+    <div class="container-form-btn">
+      <button (click)="go()"class="form-btn custom-font">
+        สมัครสมาชิก
+      </button>
+    </div>
+
+    </form>
+    </div>
+  <ion-header collapse="condense">
+  </ion-header>
+</ion-card>
+</ion-content>
